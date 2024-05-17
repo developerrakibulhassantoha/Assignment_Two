@@ -1,5 +1,6 @@
 <?php
 class Book {
+    
     private $title;
     private $availableCopies;
 
@@ -79,6 +80,7 @@ $member2 = new Member("Jane Smith");
 // Print Available Copies after returning
 echo "Available copies of \"" . $book1->getTitle() . "\": " . $book1->getAvailableCopies() . "<br>";
 echo "Available copies of \"" . $book2->getTitle() . "\": " . $book2->getAvailableCopies() . "<br>";
+
 ?>
 
 
