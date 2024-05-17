@@ -1,6 +1,6 @@
 <?php
 class Book {
-    
+
     private $title;
     private $availableCopies;
 
@@ -59,23 +59,23 @@ class Member {
 
 // Create 2 books with the following properties
 $book1 = new Book("The Great Gatsby", 5);
-$book2 = new Book("To Kill a Mockingbird", 3);
+$book2 = new Book("To Kill a Mockingbird", 5);
 
 // Create 2 members with the following properties
 $member1 = new Member("John Doe");
 $member2 = new Member("Jane Smith");
 
 // Apply Borrow book method to each member
-//$member1->borrowBook($book1);
-//$member2->borrowBook($book2);
+ $member1->borrowBook($book1);
+ $member2->borrowBook($book2);
 
 // Print Available Copies with their names
 // echo "Available copies of \"" . $book1->getTitle() . "\": " . $book1->getAvailableCopies() . "<br>";
 // echo "Available copies of \"" . $book2->getTitle() . "\": " . $book2->getAvailableCopies() . "<br>";
 
-// Members returning books
-//$member1->returnBook($book1);
-//$member2->returnBook($book2);
+ //Members returning books
+ $member1->returnBook($book1);
+ $member2->returnBook($book2);
 
 // Print Available Copies after returning
 echo "Available copies of \"" . $book1->getTitle() . "\": " . $book1->getAvailableCopies() . "<br>";
