@@ -49,6 +49,7 @@ $member1 = new Member("Rakibul Hassan Babo");
 $member2 = new Member("Sharmin Akther Anikha");
 
 $member1->borrowBook($book1);
+$member1->borrowBook($book1);
 $member2->borrowBook($book2);
 
 $member1->returnBook($book1);
