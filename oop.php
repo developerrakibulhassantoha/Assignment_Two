@@ -55,10 +55,8 @@ $member2->borrowBook($book2);
 $member1->returnBook($book1);
 $member2->returnBook($book2);
 
-//echo "Available Copies of \" ".$book1->getTitle() . "\":" . $book1->getAvailableCopies() ."<br>";  "
-
-//echo "Available Copies of: ".$book1->getTitle(). ":" .$book1->getAvailableCopies(). "<br>";
 
 echo "Available Copies of '".$book1->getTitle(). '\' : '.$book1->getAvailableCopies()."<br/>";
 echo "Available Copies of '".$book2->getTitle(). '\' : '.$book2->getAvailableCopies()."<br/>";
 
+?>
