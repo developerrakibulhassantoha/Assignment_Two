@@ -21,3 +21,5 @@ foreach ($strings as $string) {
     $reverseStrings = reverseString($string);
     echo "Original String: $string, Vowel Count: $vowelCount, Reversed String:$reverseStrings <br>";
 }
+
+
